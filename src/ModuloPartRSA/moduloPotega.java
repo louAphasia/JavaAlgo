@@ -8,7 +8,7 @@ public class moduloPotega {
 		long x=a%m;
 		for(i=1;i<=b;i<<=1) {
 			x%=m;
-			System.out.println(" potla FOR " + "x=" +x + "  m=" +m + " b = "+ b + " I = " + i);
+			System.out.println(" petla FOR " + "x=" +x + "  m=" +m + " b = "+ b + " I = " + i);
 			if((b&i)!=0) {
 				System.out.println("b =" +b + "  i=" +i );
 				r*=x;
